@@ -5,5 +5,5 @@ puts "Hello World!"
 # Lesson 2: Prompting User Input
 
 puts "What is your name?"
-name = gets
+name = gets.chop
 puts "Hey, #{name}! Nice to meet you!"
